@@ -2,7 +2,7 @@ package com.justinangel.hijckr;
 
 import android.app.Activity;
 
-public class HicjkrActivity extends Activity {
+public class HijckrActivity extends Activity {
     private ClassLoader cachedClassLoaderWrapper;
 
     @Override
