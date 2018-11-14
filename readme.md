@@ -7,6 +7,13 @@
 **Hijckr** interfers with Android's layout inflation and redirects named elements to other classes. For example for layout file contains <TextView /> Android would normally *load android.widget.TextView,* instead we can hijack <TextView /> xml tags to load *com.myapp.TextView*.
 
 ### Getting Started
+Add gradle dependency to your build.gradle file: 
+
+```xml
+dependencies {
+    implementation 'com.justinangel:hijckr:1+'
+}
+```
 
 ### Activity-Specific Hijacking 
 Let's say we want all EditText's in a given activity to replace all ":)" apperances with the 😀emjoi. For that, we can subclass EditText, listen to text changes and whenever we find ":)" replace with the appropriate emoji. With Hijckr it's possible to implicitly route all usages of <EditText /> within an activity to our SmileyEditText.
