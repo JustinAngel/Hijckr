@@ -1,5 +1,5 @@
 # Hijckr
-#### Misappropriating Your Android XML Tags since 2018 
+### Misappropriating Your Android XML Tags since 2018 [ ![Download](https://api.bintray.com/packages/nisrulz/maven/awesomelib/images/download.svg) ](https://bintray.com/nisrulz/maven/awesomelib/_latestVersion)
 
 ![](https://i.imgur.com/51cTskB.png)
 
